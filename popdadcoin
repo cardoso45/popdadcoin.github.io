@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PopDadCoin - The Meme Coin Project</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e1e2f;
+      color: #ffd700;
+      margin: 0; padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-align: center;
+    }
+    header {
+      background-color: #272743;
+      padding: 2rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    main {
+      flex-grow: 1;
+      padding: 2rem 1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    main img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.7);
+      margin-bottom: 1.5rem;
+    }
+    main p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      background-color: #272743;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+      color: #ffd700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PopDadCoin</h1>
+  </header>
+  <main>
+    <img src="https://i.imgur.com/6Iej2c3.jpg" alt="Tom Cruise Popcorn Meme" />
+    <p><strong>PopDadCoin</strong> is a playful meme coin inspired by the viral image of Tom Cruise enjoying popcorn with the relaxed, knowing vibe of a middle-aged dad.</p>
+    <p>This project celebrates internet culture by combining humor and cryptocurrency, creating a community around the iconic "dad watching the show" meme.</p>
+    <p>Join us as we embrace the spirit of fun, nostalgia, and the digital economy — all with a kernel of popcorn!</p>
+    <p><a href="#">Learn more</a></p>
+  </main>
+  <footer>
+    &copy; 2025 PopDadCoin. All rights reserved.
+  </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PopDadCoin - The Meme Coin Project</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+
+    /* Reset and base */
+    * {
+      margin: 0; padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928dab);
+      color: #fff8dc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3.5rem;
+      font-weight: 600;
+      color: #ffcb05;
+      text-shadow: 2px 2px 6px #000;
+      margin-bottom: 2rem;
+      user-select: none;
+    }
+
+    main {
+      background: rgba(0, 0, 0, 0.55);
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(255, 203, 5, 0.6);
+      max-width: 700px;
+      width: 100%;
+      backdrop-filter: blur(10px);
+      border: 2px solid #ffcb05;
+    }
+
+    main img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(255, 203, 5, 0.8);
+      margin-bottom: 1.8rem;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    main img:hover {
+      transform: scale(1.05) rotate(2deg);
+      box-shadow: 0 12px 28px rgba(255, 203, 5, 1);
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1.4rem;
+      color: #fff8dccc;
+    }
+
+    a.learn-more {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #ffcb05;
+      color: #1f1c2c;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 0.75rem 2rem;
+      border-radius: 50px;
+      box-shadow: 0 6px 15px rgba(255, 203, 5, 0.7);
+      transition: background-color 0.3s ease, color 0.3s ease;
+      user-select: none;
+    }
+    a.learn-more:hover {
+      background: #ffd94d;
+      color: #1a171f;
+      box-shadow: 0 8px 20px rgba(255, 221, 77, 1);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ffcb05cc;
+      user-select: none;
+    }
+
+    @media (max-width: 480px) {
+      header {
+        font-size: 2.5rem;
+      }
+      main {
+        padding: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      a.learn-more {
+        padding: 0.6rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>PopDadCoin</header>
+  <main>
+    <img src="https://i.imgur.com/6Iej2c3.jpg" alt="Tom Cruise Popcorn Meme" title="Tom Cruise enjoying popcorn meme" />
+    <p><strong>PopDadCoin</strong> is a meme-inspired crypto project built around the iconic image of Tom Cruise enjoying popcorn with the chill, "dad watching the show" vibe.</p>
+    <p>This coin captures the humor and nostalgia of internet culture while inviting a community that loves to laugh, invest, and hold together.</p>
+    <p>Celebrate the art of relaxed observation — just like a dad savoring every moment with a bowl of popcorn — in the fast-paced world of cryptocurrency.</p>
+    <a class="learn-more" href="https://pump.fun" target="_blank" rel="noopener noreferrer">Learn more about Pump D Fun</a>
+  </main>
+  <footer>&copy; 2025 PopDadCoin. All rights reserved.</footer>
+</body>
+</html>
+
